@@ -4,14 +4,14 @@
 
 import { application } from "./application"
 
-import HideController from "./hide_controller"
-application.register("hide", HideController)
-
 import IntroController from "./intro_controller"
 application.register("intro", IntroController)
 
 import NavbarController from "./navbar_controller"
 application.register("navbar", NavbarController)
+
+import ScrollController from "./scroll_controller"
+application.register("scroll", ScrollController)
 
 import TypedJsController from "./typed_js_controller"
 application.register("typed-js", TypedJsController)

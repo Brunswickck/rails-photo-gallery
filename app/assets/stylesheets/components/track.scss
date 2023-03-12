@@ -1,0 +1,16 @@
+.image-track {
+  display: flex;
+  gap: 3vmin;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, -50%);
+
+
+  img {
+    height: 56vmin;
+    width: 40vmin;
+    object-fit: cover;
+    object-position: center;
+  }
+}

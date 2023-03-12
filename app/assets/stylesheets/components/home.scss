@@ -6,3 +6,17 @@
   -ms-user-select: none;
   user-select: none;
 }
+
+.title {
+  position: relative;
+  top: 57%;
+  left: 0;
+  font-size: 175px;
+  z-index: -3;
+  color: white;
+  font-family: "Space Mono", monospace;
+  padding-left: 2vw;
+  font-weight: 100;
+  -webkit-transform: scaleX(0.5);
+  transform: scaleX(0.5);
+}

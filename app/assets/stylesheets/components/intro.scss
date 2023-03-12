@@ -9,4 +9,17 @@
   justify-content: center;
   align-items: center;
   color: white;
+  transition: background-color 5s ease;
+  transition-delay: 6s;
+
+  p {
+    transition-delay: 5s;
+  }
+}
+
+.dissappear {
+  background-color: rgba(0, 0, 0, 0);
+  p {
+    color: rgba(255, 255, 255, 0);
+  }
 }

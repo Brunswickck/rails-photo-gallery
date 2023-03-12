@@ -4,6 +4,9 @@
 
 import { application } from "./application"
 
+import IntroController from "./intro_controller"
+application.register("intro", IntroController)
+
 import NavbarController from "./navbar_controller"
 application.register("navbar", NavbarController)
 

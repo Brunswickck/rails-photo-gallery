@@ -11,13 +11,17 @@
   </head>
 
   <body>
-    <div class='navbar fixed-top' data-controller="navbar" data-action="mouseover->navbar#updateNavbar">
-      <div class='navbar-logo'>
-        <%= image_tag('tbp-high-resolution-logo-white-on-transparent-background.png', class:"logo")  %>
+    <div class='navbar fixed-top' data-controller="navbar" data-action="mouseover->navbar#displayNavbar mouseout->navbar#hideNavbar">
+      <div class='navbar-content'>
+        <div class='navbar-logo'>
+          <%= image_tag('tbp-high-resolution-logo-white-on-transparent-background.png', class:"logo")  %>
+        </div>
+        <div class="navbar-burger">
+          <!-- %= link_to "About", page_path(:about) %-->
+          <h2>burger menu</h2>
+        </div>
       </div>
-      <div class="navbar-burger">
-        <!-- %= link_to "About", page_path(:about) %-->
-        <h2>burger menu</h2>
+      <div class='empty-space'>
       </div>
     </div>
     <%= yield %>

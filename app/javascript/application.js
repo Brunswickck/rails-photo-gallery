@@ -2,4 +2,4 @@
 import "@hotwired/turbo-rails"
 import "./controllers"
 import "bootstrap"
-import "controllers/hello_controller"
+import ".controllers/navbar_controller"

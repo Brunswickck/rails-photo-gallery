@@ -13,9 +13,9 @@
  *= require_tree .
  *= require_self
  */
-
  @import "/components/navbar";
  @import "/components/track";
+ @import "bootstrap/scss/bootstrap";
 
 
 body {

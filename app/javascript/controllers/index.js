@@ -6,3 +6,6 @@ import { application } from "./application"
 
 import NavbarController from "./navbar_controller"
 application.register("navbar", NavbarController)
+
+import TypedJsController from "./typed_js_controller"
+application.register("typed-js", TypedJsController)
